@@ -8,8 +8,8 @@ letters = 0
 
 for i in user_input:
     if i.isdigit():
-        digits = 0
+        digits += 1
     elif i.isalpha():
-        letters = 0
+        letters += 1
 
-print(" The input string", user_input, "has", letters, "letters and", digits, "digits.")
+print("The input string", user_input, "has", letters, "letters and", digits, "digits.")
